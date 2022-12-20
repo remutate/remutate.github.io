@@ -3,7 +3,32 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
-<h1>Adapt or die.</h1>
-<p class="lead">Change is inevitable. Growth is optional.<br>We provide solutions to all, and we are
-committed to be on top of it.</p>
+<div class="p-5 mb-4 rounded-3">
+    <div class="container-fluid py-2">
+        <h1 class="display-5 fw-bold">Adapt or die.</h1>
+        <p class="col-md-8 fs-4">Change is inevitable. Growth is optional.<br>We provide solutions to all,
+            and we are committed to be on top of it.</p>
+    </div>
+</div>
+
+<div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div class="h-100 p-5 rounded-3">
+            <h2>Custom Applications</h2>
+            <p>
+                We create custom applications for you using various technologies including artificial
+                intelligence and machine learning to add functionality and efficiency.
+            </p>
+            <a class="btn btn-outline-light" href="/pages/custom-applications" type="button">Learn More</a>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="h-100 p-5 rounded-3">
+            <h2>Managed Applications</h2>
+            <p>We manage your on-premise, cloud-based, or hybrid systems. We also offer mail server setup, cloud
+                services through various platforms, and security solutions.</p>
+            <a class="btn btn-outline-light" href="/pages/managed-applications" type="button">Learn More</a>
+        </div>
+    </div>
+</div>
 {% endblock %}
